@@ -16,6 +16,9 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+install.packages("flexdashboard")  # instala paquete flexdashboard
+install.packages("devtools")       # instala paquete devtools
+devtools::install_github("dgonxalex80/paqueteMET") # descarga de paqueteMET
 library(flexdashboard)
 # Install thematic and un-comment for themed static plots (i.e., ggplot2)
 # thematic::thematic_rmd()
